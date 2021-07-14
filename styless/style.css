@@ -1,0 +1,124 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* top-bannar */
+.flexible-container {
+
+    display: flex;
+}
+
+
+.half-width{
+    width:50%;
+   padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+    margin-top: 20px;
+}
+.top-banner{
+    background-color: #2D25A0;
+    height: 450px;
+
+}
+.half-width h1,h2 {
+    padding-left: 30%;
+    font-size: 35px;
+    margin-top: 4%;
+    font-weight: 700%;
+    color: white;
+}
+.link-button{
+    background-color: blue;
+    text-decoration: none;
+   background-image: linear-gradient(orange,tomato);
+   padding: 10px 30px;
+   border-radius: 30px;
+   display: inline-block;
+   font-weight: 700%;
+   color: white;
+   margin-left: 150px;
+   
+   
+}
+
+.link-button:hover{
+color:chocolate;
+
+}
+
+/* .........courses style ........ */
+.player-blog img {
+    width: 300px;
+    height: 256px;
+     padding: 10px 10px; 
+    border-radius: none;
+  
+  
+}
+.player-blog {
+    width: 330px;
+    height: 474px;
+    
+    text-align: justify;
+    border: 2px solid rgb(215, 219, 215);
+    border-radius: 20px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    margin-left: 30px;
+    box-shadow: 1px 2px 5px;
+}
+
+.flexible-container{
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+/* footer line */
+
+.img-2 {
+    margin-left: 16%;
+    padding-top: 2%;
+
+}
+
+.logo{
+    margin-left: 50%;
+    
+    
+}
+/*........... Media Queries...... */
+
+
+/*........... Mobile Devices..... */
+@media only screen and (max-width:688px) {
+.top-banner flexible-container{
+width:100%
+}
+.half-width {
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+    
+    
+    
+
+
+
+
+
+
+ 
+
+
